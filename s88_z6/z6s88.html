@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table{
+                width: 600px;
+                height: 300px;
+                background-color: #eeeeee;
+            }
+            img{
+                border: 3px solid #993399;
+            }
+            .test{
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <table><form method="post" enctype="test/plain">
+            <tr><td>Podaj swoje imię:</td><td><input type="text" name="imie"></td><td rowspan="5"><img src="r.jpg" width="200px" height="200px"></td></tr>
+            <tr><td>Podaj swoje nazwisko:</td><td><input type="text" name="nazwisko"></td></tr>
+            <tr><td>Ile masz lat?</td><td><input type="number" min="1"></td></tr>
+            <tr><td>Wybierz płeć</td><td><input type="radio" name="plec">Kobieta<input type="radio" name="plec">Mężczyzna</td></tr>
+            <tr><td>Jakiej muzyki słuchasz?</td><td>
+                <input type="checkbox" id="muzyka1" name="muzyka1"><label for="muzyka1">Heavy metal</label><br>
+                <input type="checkbox" id="muzyka2" name="muzyka2"><label for="muzyka2">Rock</label><br>
+                <input type="checkbox" id="muzyka3" name="muzyka3"><label for="muzyka3">Pop</label><br>
+                <input type="checkbox" id="muzyka4" name="muzyka4"><label for="muzyka4">Techno</label></td></tr>
+            <tr><td></td><td></td><td><div class="test"><input type="submit"></div></td></tr>
+        </form></table>
+    </body>
+</html>
