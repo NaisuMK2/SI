@@ -7,8 +7,6 @@ Ogólne zasady:
 Zasady dla osób przesyłających zadania: (Wstępnie musze je zaprosić, więc prosze się pytac na discordzie lub facebooku)
 1. Mają być napisane przy użyciu visual studio lub innego nieupośledzonego edytora (np. Atom) | Notepad++ niejest akceptowany.
 2. Format wysłanych zadań powinień wyglądać następujaco:
-  Dla ćwiczeń: s(nr.strony)c(nr. ćwiczenia)
-  np. s88_c6.12
-  Dla zadań: s(nr. strony)z(nr. zadania)
-  np. s92_z5
-3. Reszta plików w głównym folderze może mieć dowolną nazwe, postać.
+3. Dla ćwiczeń: s(nr.strony)c(nr. ćwiczenia)   np. s88_c6.12
+4. Dla zadań: s(nr. strony)z(nr. zadania)   np. s92_z5
+5. Reszta plików w głównym folderze może mieć dowolną nazwe, postać.
